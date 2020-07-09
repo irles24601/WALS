@@ -96,7 +96,7 @@ header {
   text-align: center;
 }
 
-.portfolio-images {
+.portofolio-images {
   width: 920px;
   padding: 30px 0 90px 0;
   margin: 0 auto;
@@ -133,6 +133,7 @@ header {
 .strength-group {
   width: 980px;
   padding: 30px 0 90px 0;
+  margin: 0 auto;
 }
 
 .strength-title {
@@ -161,6 +162,7 @@ header {
 
 .profile-group {
   padding: 30px 0 90px 0;
+  margin: 0 auto;
 }
 
 .left-content {
@@ -327,5 +329,47 @@ footer {
   }
   .mv-text {
     font-size: 18px;
+  }
+
+  .portofolio-images {
+    width: 300px;
+  }
+  .image-box:nth-child(1) {
+    display: none;
+  }
+  .image-box:nth-child(3) {
+    display: none;
+  }
+  .image-box:nth-child(5) {
+    display: none;
+  }
+  .strength-group {
+    width: 320px;
+  }
+
+  .profile-group {
+    width: 320px;
+    text-align: center;
+  }
+  .left-content {
+    float: none;
+    width: 100%;
+  }
+  .right-content {
+    float: none;
+    width: 100%;
+  }
+  .profile-title:first-child {
+    margin-top: 20px;
+  }
+
+  .contact-group {
+    width: 320px;
+  }
+  .contact-title {
+    text-align: center;
+  }
+  .contact-title:first-child {
+    margin-top: 20px;
   }
 }
